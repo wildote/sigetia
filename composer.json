@@ -1,0 +1,22 @@
+{
+    "name": "wildote/sigetia",
+    "description": "gestao de monografia",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "ext-mysqli": "*",
+        "twbs/bootstrap": "dev-main"
+    },
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Wildote\\Sigetia\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wildote"
+        }
+    ],
+    "minimum-stability": "dev"
+}
